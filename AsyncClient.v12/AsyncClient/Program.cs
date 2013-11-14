@@ -44,13 +44,18 @@ namespace AsyncSocketClient
                 Console.WriteLine("Usage: AsyncSocketClient.exe <destination IP address> <destination port number>");
             }
 
-            // Create a socket and connect to the server
-            Socket sock = new Socket(destinationAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
-            socketEventArg.Completed += new EventHandler<SocketAsyncEventArgs>(SocketEventArg_Completed);
-            socketEventArg.RemoteEndPoint = new IPEndPoint(destinationAddr, destinationPort);
-            socketEventArg.UserToken = sock;
-            sock.ConnectAsync(socketEventArg);
-            clientDone.WaitOne();
+			while (true) {
+				// Create a socket and connect to the server
+				Socket sock = new Socket (destinationAddr.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
+				socketEventArg.Completed += new EventHandler<SocketAsyncEventArgs> (SocketEventArg_Completed);
+				socketEventArg.RemoteEndPoint = new IPEndPoint (destinationAddr, destinationPort);
+				socketEventArg.UserToken = sock;
+				sock.ConnectAsync (socketEventArg);
+				clientDone.WaitOne ();
+				Thread.Sleep (new Random ().Next (1000, 5000));
+				clientDone = new ManualResetEvent (false);
+			}
+
         }
 
         /// <summary>
