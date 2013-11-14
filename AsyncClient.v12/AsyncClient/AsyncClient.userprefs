@@ -1,0 +1,35 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Main.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="18" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="AsyncClient" expanded="True">
+            <Node name="Program.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>myFiles</Value>
+          <Value>consoleCmd</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../clientExperiment/clientExperiment/client.cs" line="75" offsetX="590" offsetY="1258" expression="ackMessage" liveUpdate="False" />
+    <Watch file="../../../clientExperiment/clientExperiment/client.cs" line="76" offsetX="526" offsetY="1275" expression="ackMessage" liveUpdate="False" />
+    <Watch file="../../../central-server/central-server/Program.cs" line="78" offsetX="566" offsetY="1309" expression="cmdBytes" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
