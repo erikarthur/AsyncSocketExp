@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncServer", "AsyncServer.csproj", "{91B8B6D0-C9FA-419F-942B-79B861F996CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B8B6D0-C9FA-419F-942B-79B861F996CA}.Debug|x86.ActiveCfg = Debug|x86
+		{91B8B6D0-C9FA-419F-942B-79B861F996CA}.Debug|x86.Build.0 = Debug|x86
+		{91B8B6D0-C9FA-419F-942B-79B861F996CA}.Release|x86.ActiveCfg = Release|x86
+		{91B8B6D0-C9FA-419F-942B-79B861F996CA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AsyncServer.csproj
+	EndGlobalSection
+EndGlobal

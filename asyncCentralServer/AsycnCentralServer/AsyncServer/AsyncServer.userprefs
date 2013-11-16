@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Server.cs">
+    <Files>
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Server.cs" Line="248" Column="5" />
+      <File FileName="BufferManager.cs" Line="1" Column="1" />
+      <File FileName="AsyncUserToken.cs" Line="1" Column="1" />
+      <File FileName="SocketAsyncEventArgsPool.cs" Line="1" Column="1" />
+      <File FileName="message.cs" Line="16" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../clientExperiment/clientExperiment/client.cs" line="75" offsetX="590" offsetY="1258" expression="ackMessage" liveUpdate="False" />
+    <Watch file="../../../clientExperiment/clientExperiment/client.cs" line="76" offsetX="526" offsetY="1275" expression="ackMessage" liveUpdate="False" />
+    <Watch file="../../../central-server/central-server/Program.cs" line="78" offsetX="566" offsetY="1309" expression="cmdBytes" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
